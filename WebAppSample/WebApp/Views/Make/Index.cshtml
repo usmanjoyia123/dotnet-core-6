@@ -1,0 +1,40 @@
+﻿@model IEnumerable<WebApp.Models.Make>
+
+@{
+    ViewData["Title"] = "Car Makes";
+}
+<h1 style="margin-top: 40px">Car Makes we trust in!</h1>
+
+<div class="float-right text-end">
+    <a asp-controller="Make" asp-action="Create" class = "btn btn-success"><i class="bi bi-plus-circle"></i> &nbsp; Create New</a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TimeStamp)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimeStamp)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-success btn-sm"> <i class="bi bi-pencil-square"></i> &nbsp; Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning btn-sm"><i class="bi bi-info-circle"></i> &nbsp; Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm"><i class="bi bi-archive"></i> &nbsp; Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,36 @@
+USE [AdvProg]
+GO
+SET IDENTITY_INSERT [dbo].[Inventory] ON
+GO
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (1, 1, N'Black', N'Golf R')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (2, 1, N'Black', N'Golf GTR')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (3, 1, N'Black', N'Jetta')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (4, 1, N'Black', N'Taos')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (5, 1, N'Black', N'Altas')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (6, 2, N'Rust', N'Brono')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (7, 2, N'Rust', N'Mustang')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (8, 2, N'Rust', N'Explorer')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (9, 2, N'Rust', N'Escape')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (10, 2, N'Rust', N'F-150')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (11, 3, N'Black', N'Civic')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (12, 3, N'Black', N'Accord')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (13, 3, N'Black', N'City')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (14, 3, N'Black', N'HRV')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (15, 4, N'Yellow', N'Clunker')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (16, 4, N'Yellow', N'iX1')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (17, 4, N'Yellow', N'X5')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (18, 4, N'Yellow', N'X7')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (19, 4, N'Yellow', N'X3')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (20, 5, N'Black', N'Bimmer')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (21, 5, N'Green', N'Hank')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (22, 5, N'Pink', N'Pinky')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (23, 6, N'Black', N'Pete')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (24, 7, N'Yellow', N'Clunker')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (25, 7, N'Yellow', N'Clunker')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (26, 7, N'Yellow', N'Clunker')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (27, 8, N'Yellow', N'Sonata')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (28, 8, N'Yellow', N'Tuscon')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (29, 9, N'Yellow', N'Springer')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (34, 9, N'Yellow', N'Sportage')
+INSERT INTO [dbo].[Inventory] ([Id], [MakeId], [Color], [PetName]) VALUES (31, 10, N'Brown', N'Kiger')SET IDENTITY_INSERT [dbo].[Inventory] OFF
+GO

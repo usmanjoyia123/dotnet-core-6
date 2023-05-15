@@ -1,0 +1,48 @@
+﻿@model IEnumerable<WebApp.Models.Car>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="margin-top:40px">The class from the trust we brought for you!</h1>
+
+<div class="text-end">
+    <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle"></i> &nbsp; Create New</a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PetName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TimeStamp)
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimeStamp)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class= "btn btn-success btn-sm"><i class="bi bi-pencil-square"></i>&nbsp;Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm"><i class="bi bi-info-circle"></i> &nbsp;Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm"><i class="bi bi-archive"></i> &nbsp;Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
