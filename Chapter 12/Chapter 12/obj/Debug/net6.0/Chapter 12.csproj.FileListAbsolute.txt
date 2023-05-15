@@ -1,0 +1,15 @@
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\bin\Debug\net6.0\Chapter 12.exe
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\bin\Debug\net6.0\Chapter 12.deps.json
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\bin\Debug\net6.0\Chapter 12.runtimeconfig.json
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\bin\Debug\net6.0\Chapter 12.dll
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\bin\Debug\net6.0\Chapter 12.pdb
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\obj\Debug\net6.0\Chapter 12.csproj.AssemblyReference.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\obj\Debug\net6.0\Chapter 12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\obj\Debug\net6.0\Chapter 12.AssemblyInfoInputs.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\obj\Debug\net6.0\Chapter 12.AssemblyInfo.cs
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\obj\Debug\net6.0\Chapter 12.csproj.CoreCompileInputs.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\obj\Debug\net6.0\Chapter 12.dll
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\obj\Debug\net6.0\refint\Chapter 12.dll
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\obj\Debug\net6.0\Chapter 12.pdb
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\obj\Debug\net6.0\Chapter 12.genruntimeconfig.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter 12\Chapter 12\obj\Debug\net6.0\ref\Chapter 12.dll

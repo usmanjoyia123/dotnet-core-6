@@ -1,0 +1,15 @@
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\bin\Debug\net6.0\Chapter 11.exe
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\bin\Debug\net6.0\Chapter 11.deps.json
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\bin\Debug\net6.0\Chapter 11.runtimeconfig.json
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\bin\Debug\net6.0\Chapter 11.dll
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\bin\Debug\net6.0\Chapter 11.pdb
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\obj\Debug\net6.0\Chapter 11.csproj.AssemblyReference.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\obj\Debug\net6.0\Chapter 11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\obj\Debug\net6.0\Chapter 11.AssemblyInfoInputs.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\obj\Debug\net6.0\Chapter 11.AssemblyInfo.cs
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\obj\Debug\net6.0\Chapter 11.csproj.CoreCompileInputs.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\obj\Debug\net6.0\Chapter 11.dll
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\obj\Debug\net6.0\refint\Chapter 11.dll
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\obj\Debug\net6.0\Chapter 11.pdb
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\obj\Debug\net6.0\Chapter 11.genruntimeconfig.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter 11\Chapter 11\obj\Debug\net6.0\ref\Chapter 11.dll
