@@ -37,14 +37,15 @@ class Program{
         Console.WriteLine("The bool parsing to string is: {0}", _a);
         Console.WriteLine();
 
-        // covert this into separte function with proper success and failure checks [Hint: If-else control structures]
+        // convert this into separte function with proper
+        // success and failure checks [Hint: If-else control structures]
     }
     static void stringOperations()
     {
         //Strings are immutable in C#
         Console.WriteLine("**********Fun with String**********");
         //Escape Characters 
-        Console.WriteLine("C:\\MyApp\\bin\\Debug ");
+        Console.WriteLine("C:\\MyApp\\bin\\Debug");
         Console.WriteLine("Everyone loves \"Hello World\" ");
         // Whitespace is preserved with verbatim strings.
         string myLongString = @"This is a very
@@ -137,43 +138,57 @@ class Program{
             enumData.GetValue(i));
         }
     }
-
-    static void sampleFunction(params int [] values )
+    enum weekDays 
     {
-        Console.Write(x+y);
-        x = 100;
-        y = 50;
-        ans = x + y;
-    }
-    enum weekDays
-    {
-        Friday = 1,
-        Saturday,
-        Sunday, 
-        Monday, 
+        Friday = 120,
+        Saturday = 1,
+        Sunday = 5, 
+        Monday = 6, 
         Tuesday, Wednesday, Thursday
     }
     static void Main(string[] args)
     {
+        Console.WriteLine("=> Using new to create variables:");
+        bool b = new(); // Set to false.
+        int myInt = new(); // Set to 0.
+        double d = new(); // Set to 0.
+        DateTime dt = new(); // Set to 1/1/0001 12:00:00 AM
+
         getObjectDetails();
         stringOperations();
         parseFromStrings();
-
-
+        Console.WriteLine("Press Enter to Clear");
+        Console.Read();
+        Console.Clear();
+      
+        //addusingParams(5,4, out _);
+        
         int[] marks = { 1, 2,3 };
-        var subset = from i in marks where i < 3 select i;
-        foreach (int i in subset) {
-            Console.WriteLine(i);
+        var subset = from m in marks where m < 3 select m; // LINQ Clauses
+        foreach (int s in subset) {
+            Console.WriteLine(s);
         }
+
+
+
+        Console.WriteLine("Press Enter to Clear");
+        Console.Read();
+        Console.Clear();
 
         object myItem = 123;
         Type T = typeof(string);
         char c = 'f';
         Console.WriteLine((myItem is int) ? $"{myItem} is Integer" : $"{myItem} is not Integer");
         Console.WriteLine((myItem is not string ? $"{myItem} is not String" : $"{myItem} is {T}"));
+        Console.WriteLine("Test String" is string ? $"\"Test String\" is {T} " : $"\"Test String\" is not {T}");
         if (c is > 'a' or <'A' and >= 'Z'){
             Console.WriteLine($"{c} is char variable");
         }
+
+
+        Console.WriteLine("Press Enter to Clear");
+        Console.Read();
+        Console.Clear();
 
         int[] arr = new int[3];
         string[] strArr = {"Advanced Programming","Computer Networks","Artificial Intelligence" };
@@ -190,6 +205,8 @@ class Program{
         {
             Console.WriteLine($"Type of object is {o.GetType()} and value {o} ");
         }
+
+
         int[][] jaggedArray = new int[5][];
         for (int i = 0; i < jaggedArray.Length; i++)
         {
@@ -208,25 +225,25 @@ class Program{
         Console.WriteLine($"The lenght of strArr is {strArr.Length}");
         Console.WriteLine($"The lenght of flags is {flags.Length}");
         Console.WriteLine($"The lenght of matrix is {matrix.Length}");
+
+        Console.WriteLine("Press Enter to Clear");
+        Console.ReadLine();
+        Console.Clear();
+        
+
+
         Console.WriteLine(funWithSwitch("Black"));
         Console.WriteLine(funWithTupleSwitch("cs21323","232234"));
         //lookout for the array methods such as clear(), Sort(), CopyTo(), Rank, Reverse()
         string[] gothicBands = { "Tones on Tail", "Bauhaus", "Sisters of Mercy" };
-        Index id = ^3;
+        Index id = ^1;
         Console.WriteLine(gothicBands[id]);
-        for (int i = 1; i <= gothicBands.Length; i++)
-        {
-            Index idx = ^2;
-            // Print a name
-            //Console.WriteLine(gothicBands[idx] + ", ");
-        }
 
 
         foreach (string gothic in gothicBands[0..2])
         {
             Console.WriteLine(gothic);
         }
-        Console.WriteLine("Hello, World!");
         var today = weekDays.Tuesday;
         Console.WriteLine($"Today is weekday {today}");
         EvaluateEnum(weekDays.Tuesday);

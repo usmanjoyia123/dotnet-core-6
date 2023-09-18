@@ -4,6 +4,7 @@ class Program
 {
     public static void Main(string[] args)
     {
+        
         //Car car = new Car() { Speed = 240 };
         //car.Speed = 240; 
         //Console.WriteLine(string.Format("My car is cruising at the speed of {0} MPH", car.Speed));
@@ -28,6 +29,7 @@ class Program
         
         PTSalesPerson pT = new PTSalesPerson("Sample PT Employee", 19, 192, 12000, "7498378957948", 32, 5);
         //pT.DisplayStats();
+        //Console.WriteLine(pT);
 
         object[] emps = { chucky, john, pT};
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace Chapter5
 {
     sealed class PTSalesPerson : SalesPerson
     {
+        public const double pi = 3.14; // constant types are implicitly static
         public int workingHours {get;private set;}
         
         

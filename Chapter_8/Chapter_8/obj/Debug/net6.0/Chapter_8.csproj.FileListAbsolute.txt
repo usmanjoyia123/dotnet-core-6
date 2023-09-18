@@ -3,7 +3,6 @@ C:\Users\USMAN JOIYA\source\repos\Chapter_8\Chapter_8\bin\Debug\net6.0\Chapter_8
 C:\Users\USMAN JOIYA\source\repos\Chapter_8\Chapter_8\bin\Debug\net6.0\Chapter_8.runtimeconfig.json
 C:\Users\USMAN JOIYA\source\repos\Chapter_8\Chapter_8\bin\Debug\net6.0\Chapter_8.dll
 C:\Users\USMAN JOIYA\source\repos\Chapter_8\Chapter_8\bin\Debug\net6.0\Chapter_8.pdb
-C:\Users\USMAN JOIYA\source\repos\Chapter_8\Chapter_8\obj\Debug\net6.0\Chapter_8.csproj.AssemblyReference.cache
 C:\Users\USMAN JOIYA\source\repos\Chapter_8\Chapter_8\obj\Debug\net6.0\Chapter_8.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\USMAN JOIYA\source\repos\Chapter_8\Chapter_8\obj\Debug\net6.0\Chapter_8.AssemblyInfoInputs.cache
 C:\Users\USMAN JOIYA\source\repos\Chapter_8\Chapter_8\obj\Debug\net6.0\Chapter_8.AssemblyInfo.cs

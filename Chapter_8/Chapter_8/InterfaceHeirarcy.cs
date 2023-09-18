@@ -23,8 +23,8 @@ namespace Chapter_8
     }
     class Sqaure : IShape
     {
-        public int GetNumberOfSides() => 4;
-        public void Draw() => Console.WriteLine("Drawing...");
+        public int GetNumberOfSides() => 4; // IShape implemented!
+        public void Draw() => Console.WriteLine("Drawing...");// 
         public void Print() => Console.WriteLine("Printing...");
     }
 }

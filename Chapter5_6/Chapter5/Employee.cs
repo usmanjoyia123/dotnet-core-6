@@ -12,7 +12,6 @@ namespace Chapter5
         Salaried = 100000,
         Visiting = 50000, 
         Commision = 1000
-
     }
     abstract class Employee
     {

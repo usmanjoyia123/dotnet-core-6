@@ -2,6 +2,7 @@
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             Bike bike = new Bike(100, "CD-70", "Cheap Harley Davidson");
