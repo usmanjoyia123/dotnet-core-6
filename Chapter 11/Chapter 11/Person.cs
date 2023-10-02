@@ -36,7 +36,7 @@ namespace Chapter11
 
         public Person this[int index] {
             get => (Person)_list[index];
-            set => _list.Insert(index,value);
+            set => _list.Insert(index, value); // _list[index] = value;
         }
         public void AddPerson(Person person) => _list.Add(person);
         public int Count => _list.Count;

@@ -7,24 +7,33 @@ using System.Threading.Tasks;
 
 namespace Chapter10
 {
-    public class Person
+    public class Person : IComparable
     {
+        public int Id { get; set; }
         public int Age { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Person() { }
-        public Person(string firstName, string lastName, int age)
+        public Person(string firstName, string lastName, int age, int id)
         {
-            Age = age;
-            FirstName = firstName;
-            LastName = lastName;
+            this.Id = id;
+            this.Age = age;
+            this.FirstName = firstName;
+            this.LastName = lastName;
         }
         public override string ToString()
         {
             return $"Name: {FirstName} {LastName}, Age: {Age}";
         }
+        int IComparable.CompareTo(object? obj)
+        {
+            if (obj is Person tmp)
+            {
+                return this.Id.CompareTo(tmp.Id);
+            }
+            throw new Exception("The object is not Person");
+        }
     }
-    
     public class PersonCollection : IEnumerable
     {
         private ArrayList _list = new ArrayList();
