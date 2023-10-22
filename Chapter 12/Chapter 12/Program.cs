@@ -17,7 +17,7 @@ class program
         CarCaller caller = new CarCaller();
         
         car.CarEngineAboutToBlow += caller.CarAboutToBlow;
-        car.CarEngineAboutToBlow -= caller.CarAboutToBlow;
+        //car.CarEngineAboutToBlow -= caller.CarAboutToBlow;
         car.CarEngineAboutToBlow += caller.CarIsAlmostDoomed;
         int counter = 0;
 
@@ -34,19 +34,22 @@ class program
         car.CarEngineNormal += new Car.CarEngineHandler(Anonymous);
 
         car.CarEngineNormal -= new Car.CarEngineHandler(Anonymous);
-        Car c = new Car("New Car", 100, 50);
+        //Car c = new Car("New Car", 100, 50);
         for (int i=0; i< 6; i++)
         {
             car.Accelerate(20);
+            Thread.Sleep(1000);
         }
         Console.Clear();
+
+
         Func<int, int, int> constant = new Func<int, int, int>( (int _, int _) => { return 42; });
         Console.WriteLine(constant(3,4));
 
  //       Console.Clear();
 
         List<int> numbers = new List<int>();
-        numbers.AddRange(new [] { 1, 2,3,4,5,6 });
+        numbers.AddRange(new [] { 1,2,3,4,5,6 });
        
         
         List<int> evenNumbers =  numbers.FindAll(delegate(int i) { return (i % 2 == 0); });
@@ -59,6 +62,20 @@ class program
         {
             Console.WriteLine(number);
         }
+        Console.Clear ();
+
+        Action<string, ConsoleColor, int> display = new Action<string, ConsoleColor, int>
+            (delegate (string msg, ConsoleColor color, int count) { 
+                ConsoleColor previous = Console.ForegroundColor;
+                Console.ForegroundColor = color;
+                for (int i = 0; i < count; i++)
+                {
+                    Console.WriteLine(msg.ToUpper());
+                }
+                Console.ForegroundColor = previous;
+                Console.WriteLine("Color Restored");
+            });
+        display?.Invoke("This is message",ConsoleColor.Green, 5);
         Console.ReadLine();
     }
 }

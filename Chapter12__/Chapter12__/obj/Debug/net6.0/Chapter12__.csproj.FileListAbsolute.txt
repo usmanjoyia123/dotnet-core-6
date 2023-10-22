@@ -1,0 +1,14 @@
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\obj\Debug\net6.0\Chapter12__.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\obj\Debug\net6.0\Chapter12__.AssemblyInfoInputs.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\obj\Debug\net6.0\Chapter12__.AssemblyInfo.cs
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\obj\Debug\net6.0\Chapter12__.csproj.CoreCompileInputs.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\bin\Debug\net6.0\Chapter12__.exe
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\bin\Debug\net6.0\Chapter12__.deps.json
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\bin\Debug\net6.0\Chapter12__.runtimeconfig.json
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\bin\Debug\net6.0\Chapter12__.dll
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\bin\Debug\net6.0\Chapter12__.pdb
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\obj\Debug\net6.0\Chapter12__.dll
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\obj\Debug\net6.0\refint\Chapter12__.dll
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\obj\Debug\net6.0\Chapter12__.pdb
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\obj\Debug\net6.0\Chapter12__.genruntimeconfig.cache
+C:\Users\USMAN JOIYA\source\repos\Chapter12__\Chapter12__\obj\Debug\net6.0\ref\Chapter12__.dll
